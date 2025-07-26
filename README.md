@@ -1,73 +1,98 @@
-# Welcome to your Lovable project
+# Palmetto Pump Pros
 
-## Project info
+A modern, responsive website for Palmetto Pump & Control, built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/094adaee-d91f-4c62-9e48-31d830de0af1
+## Features
 
-## How can I edit this code?
+- 🎨 Modern, professional design
+- 📱 Fully responsive layout
+- ⚡ Fast performance with Vite
+- 🎯 Type-safe with TypeScript
+- 🎨 Styled with Tailwind CSS and shadcn/ui components
+- 🚀 Optimized for GitHub Pages deployment
 
-There are several ways of editing your application.
+## Development
 
-**Use Lovable**
+### Prerequisites
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/094adaee-d91f-4c62-9e48-31d830de0af1) and start prompting.
+- Node.js 18+
+- npm or yarn
 
-Changes made via Lovable will be committed automatically to this repo.
+### Getting Started
 
-**Use your preferred IDE**
+1. Clone the repository:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```bash
+git clone https://github.com/YOUR_USERNAME/palmetto-pump-pros.git
+cd palmetto-pump-pros
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+2. Install dependencies:
 
-Follow these steps:
+```bash
+npm install
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+3. Start the development server:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser to `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Deployment to GitHub Pages
 
-**Use GitHub Codespaces**
+This project is configured for automatic deployment to GitHub Pages.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Setup Instructions
 
-## What technologies are used for this project?
+1. **Update the repository name** in the following files if you renamed the repository:
 
-This project is built with:
+   - `package.json`: Update the `homepage` field
+   - `vite.config.ts`: Update the `base` path
+   - `public/404.html`: Update the redirect URL
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+2. **Enable GitHub Pages**:
 
-## How can I deploy this project?
+   - Go to your repository Settings
+   - Scroll to "Pages" section
+   - Set Source to "GitHub Actions"
 
-Simply open [Lovable](https://lovable.dev/projects/094adaee-d91f-4c62-9e48-31d830de0af1) and click on Share -> Publish.
+3. **Deploy**:
+   - Push to the `main` branch
+   - The GitHub Action will automatically build and deploy your site
+   - Your site will be available at `https://YOUR_USERNAME.github.io/palmetto-pump-pros`
 
-## Can I connect a custom domain to my Lovable project?
+### Manual Deployment
 
-Yes, you can!
+You can also deploy manually using the gh-pages package:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+```bash
+npm run deploy
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## Project Structure
+
+```
+src/
+├── components/     # Reusable UI components
+├── pages/         # Page components
+├── hooks/         # Custom React hooks
+├── lib/           # Utility functions
+└── assets/        # Static assets
+```
+
+## Built With
+
+- [React](https://reactjs.org/) - UI framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Vite](https://vitejs.dev/) - Build tool
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [shadcn/ui](https://ui.shadcn.com/) - UI components
+- [React Router](https://reactrouter.com/) - Client-side routing
+- [Lucide React](https://lucide.dev/) - Icons
+
+## License
+
+This project is private and proprietary to Palmetto Pump & Control, LLC.
