@@ -61,7 +61,28 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Construction theme colors
+				'construction-orange': 'hsl(var(--construction-orange))',
+				'construction-yellow': 'hsl(var(--construction-yellow))',
+				'navy-blue': 'hsl(var(--navy-blue))',
+				'dark-gray': 'hsl(var(--dark-gray))',
+				'light-gray': 'hsl(var(--light-gray))'
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-accent': 'var(--gradient-accent)'
+			},
+			boxShadow: {
+				'hard': 'var(--shadow-hard)',
+				'strong': 'var(--shadow-strong)'
+			},
+			fontFamily: {
+				'work-sans': ['Work Sans', 'system-ui', 'sans-serif'],
+				'lato': ['Lato', 'system-ui', 'sans-serif']
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
