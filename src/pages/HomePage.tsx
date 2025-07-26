@@ -33,7 +33,7 @@ const HomePage = () => {
                 <Phone className="w-6 h-6 mr-3" />
                 Call (843) 555-1234
               </Button>
-              <Button variant="outline" size="xl" className="border-white text-white hover:bg-white hover:text-navy-blue">
+              <Button variant="outline" size="xl" className="border-white text-white bg-transparent hover:bg-white hover:text-navy-blue">
                 Get Free Quote
               </Button>
             </div>
