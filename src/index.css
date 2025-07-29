@@ -37,8 +37,8 @@ All colors MUST be HSL.
     --ring: 210 100% 15%;
 
     /* Construction/Work theme colors */
-    --construction-orange: 30 100% 50%;
-    --construction-yellow: 45 100% 55%;
+    --construction-orange: 180 100% 35%;
+    --construction-yellow: 200 100% 25%;
     --navy-blue: 210 100% 15%;
     --dark-gray: 210 15% 25%;
     --light-gray: 210 15% 85%;
