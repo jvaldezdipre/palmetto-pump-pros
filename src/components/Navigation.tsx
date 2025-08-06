@@ -23,10 +23,12 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="bg-gradient-accent rounded-lg p-2">
-              <div className="w-8 h-8 bg-navy-blue rounded flex items-center justify-center">
-                <span className="text-white font-bold text-sm">P</span>
-              </div>
+            <div className="w-12 h-12 rounded-lg overflow-hidden">
+              <img 
+                src="/lovable-uploads/adf7b64e-1d99-4a9b-a85a-d22e3e5fbddb.png" 
+                alt="Palmetto Pump & Control Logo" 
+                className="w-full h-full object-contain"
+              />
             </div>
             <div className="hidden sm:block">
               <h1 className="font-work-sans font-bold text-lg text-navy-blue">
