@@ -9,10 +9,12 @@ const Footer = () => {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="bg-gradient-accent rounded-lg p-2">
-                <div className="w-8 h-8 bg-white rounded flex items-center justify-center">
-                  <span className="text-navy-blue font-bold text-sm">P</span>
-                </div>
+              <div className="w-12 h-12 rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/adf7b64e-1d99-4a9b-a85a-d22e3e5fbddb.png" 
+                  alt="Palmetto Pump & Control Logo" 
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div>
                 <h3 className="font-work-sans font-bold text-xl">Palmetto Pump & Control</h3>
