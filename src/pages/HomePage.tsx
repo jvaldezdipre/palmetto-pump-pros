@@ -1,4 +1,11 @@
-import { Phone, CheckCircle, Wrench, Settings, Truck, Star } from "lucide-react";
+import {
+  Phone,
+  CheckCircle,
+  Wrench,
+  Settings,
+  Truck,
+  Star,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -13,27 +20,37 @@ const HomePage = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[90vh] bg-gradient-hero flex items-center overflow-hidden">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: `url(${heroImage})` }}
         />
         <div className="absolute inset-0 bg-navy-blue/70" />
-        
+
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
           <div className="max-w-3xl">
             <h1 className="font-work-sans font-black text-5xl md:text-7xl leading-tight mb-6">
-              Your Local <span className="text-construction-orange">Pump Experts</span>
+              Your Local{" "}
+              <span className="text-construction-orange">Pump Experts</span>
             </h1>
             <p className="font-lato text-xl md:text-2xl mb-8 text-gray-200">
-              Fast, Reliable Service for Water & Wastewater Systems Throughout South Carolina
+              Fast, Reliable Service for Water & Wastewater Systems Throughout
+              South Carolina
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <Button variant="construction" size="xl" className="shadow-strong">
+              <Button
+                variant="construction"
+                size="xl"
+                className="shadow-strong"
+              >
                 <Phone className="w-6 h-6 mr-3" />
-                Call (843) 555-1234
+                Call (803) 532-1001
               </Button>
-              <Button variant="outline" size="xl" className="border-white text-white bg-transparent hover:bg-white hover:text-navy-blue">
+              <Button
+                variant="outline"
+                size="xl"
+                className="border-white text-white bg-transparent hover:bg-white hover:text-navy-blue"
+              >
                 Get Free Quote
               </Button>
             </div>
@@ -43,7 +60,9 @@ const HomePage = () => {
                 <CheckCircle className="w-8 h-8 text-construction-orange flex-shrink-0" />
                 <div>
                   <p className="font-bold">Licensed & Insured</p>
-                  <p className="text-sm text-gray-300">Fully bonded professionals</p>
+                  <p className="text-sm text-gray-300">
+                    Fully bonded professionals
+                  </p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
@@ -71,35 +90,56 @@ const HomePage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="font-work-sans font-bold text-4xl md:text-5xl text-navy-blue mb-6">
-                Built on <span className="text-construction-orange">Local Trust</span> & Experience
+                Built on{" "}
+                <span className="text-construction-orange">Local Trust</span> &
+                Experience
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                For over two decades, Palmetto Pump & Control has been the go-to choice for municipalities, 
-                facility managers, and property owners across South Carolina. We're not just another service 
-                company – we're your neighbors, committed to keeping your water systems running smoothly.
+                For over two decades, Palmetto Pump & Control has been the go-to
+                choice for municipalities, facility managers, and property
+                owners across South Carolina. We're not just another service
+                company – we're your neighbors, committed to keeping your water
+                systems running smoothly.
               </p>
               <p className="text-lg text-muted-foreground mb-8">
-                Our team of certified technicians brings real-world experience to every job, from routine 
-                maintenance to emergency repairs. When something goes wrong, we respond fast because we 
-                understand that downtime costs money.
+                Our team of certified technicians brings real-world experience
+                to every job, from routine maintenance to emergency repairs.
+                When something goes wrong, we respond fast because we understand
+                that downtime costs money.
               </p>
-              
+
               <div className="grid grid-cols-2 gap-6 mb-8">
                 <div className="text-center">
-                  <div className="text-3xl font-black text-construction-orange mb-2">500+</div>
-                  <p className="text-sm font-medium text-muted-foreground">Systems Serviced</p>
+                  <div className="text-3xl font-black text-construction-orange mb-2">
+                    500+
+                  </div>
+                  <p className="text-sm font-medium text-muted-foreground">
+                    Systems Serviced
+                  </p>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-black text-construction-orange mb-2">24/7</div>
-                  <p className="text-sm font-medium text-muted-foreground">Emergency Response</p>
+                  <div className="text-3xl font-black text-construction-orange mb-2">
+                    24/7
+                  </div>
+                  <p className="text-sm font-medium text-muted-foreground">
+                    Emergency Response
+                  </p>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-black text-construction-orange mb-2">20+</div>
-                  <p className="text-sm font-medium text-muted-foreground">Years Experience</p>
+                  <div className="text-3xl font-black text-construction-orange mb-2">
+                    20+
+                  </div>
+                  <p className="text-sm font-medium text-muted-foreground">
+                    Years Experience
+                  </p>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-black text-construction-orange mb-2">100%</div>
-                  <p className="text-sm font-medium text-muted-foreground">Licensed & Insured</p>
+                  <div className="text-3xl font-black text-construction-orange mb-2">
+                    100%
+                  </div>
+                  <p className="text-sm font-medium text-muted-foreground">
+                    Licensed & Insured
+                  </p>
                 </div>
               </div>
 
@@ -107,11 +147,11 @@ const HomePage = () => {
                 Learn More About Us
               </Button>
             </div>
-            
+
             <div className="relative">
-              <img 
-                src={serviceTruck} 
-                alt="Palmetto Pump & Control service truck" 
+              <img
+                src={serviceTruck}
+                alt="Palmetto Pump & Control service truck"
                 className="rounded-lg shadow-strong"
               />
               <div className="absolute -bottom-6 -left-6 bg-construction-orange text-white p-6 rounded-lg shadow-strong">
@@ -128,10 +168,12 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-work-sans font-bold text-4xl md:text-5xl text-navy-blue mb-6">
-              Complete <span className="text-construction-orange">Pump Solutions</span>
+              Complete{" "}
+              <span className="text-construction-orange">Pump Solutions</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              From installation to emergency repairs, we handle every aspect of your pump and control systems
+              From installation to emergency repairs, we handle every aspect of
+              your pump and control systems
             </p>
           </div>
 
@@ -141,9 +183,12 @@ const HomePage = () => {
                 <div className="bg-navy-blue text-white p-4 rounded-lg mb-6 w-fit group-hover:bg-construction-orange transition-colors">
                   <Settings className="w-8 h-8" />
                 </div>
-                <h3 className="font-work-sans font-bold text-xl text-navy-blue mb-4">Installation</h3>
+                <h3 className="font-work-sans font-bold text-xl text-navy-blue mb-4">
+                  Installation
+                </h3>
                 <p className="text-muted-foreground mb-6">
-                  Professional installation of new pump systems, control panels, and automation equipment.
+                  Professional installation of new pump systems, control panels,
+                  and automation equipment.
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center space-x-2">
@@ -167,9 +212,12 @@ const HomePage = () => {
                 <div className="bg-navy-blue text-white p-4 rounded-lg mb-6 w-fit group-hover:bg-construction-orange transition-colors">
                   <Wrench className="w-8 h-8" />
                 </div>
-                <h3 className="font-work-sans font-bold text-xl text-navy-blue mb-4">Maintenance</h3>
+                <h3 className="font-work-sans font-bold text-xl text-navy-blue mb-4">
+                  Maintenance
+                </h3>
                 <p className="text-muted-foreground mb-6">
-                  Preventive maintenance programs to keep your systems running efficiently and extend equipment life.
+                  Preventive maintenance programs to keep your systems running
+                  efficiently and extend equipment life.
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center space-x-2">
@@ -193,9 +241,12 @@ const HomePage = () => {
                 <div className="bg-navy-blue text-white p-4 rounded-lg mb-6 w-fit group-hover:bg-construction-orange transition-colors">
                   <Settings className="w-8 h-8 rotate-45" />
                 </div>
-                <h3 className="font-work-sans font-bold text-xl text-navy-blue mb-4">Repairs</h3>
+                <h3 className="font-work-sans font-bold text-xl text-navy-blue mb-4">
+                  Repairs
+                </h3>
                 <p className="text-muted-foreground mb-6">
-                  Fast, reliable repair services for all types of pump systems and control equipment.
+                  Fast, reliable repair services for all types of pump systems
+                  and control equipment.
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center space-x-2">
@@ -219,9 +270,12 @@ const HomePage = () => {
                 <div className="bg-navy-blue text-white p-4 rounded-lg mb-6 w-fit group-hover:bg-construction-orange transition-colors">
                   <Truck className="w-8 h-8" />
                 </div>
-                <h3 className="font-work-sans font-bold text-xl text-navy-blue mb-4">Sales</h3>
+                <h3 className="font-work-sans font-bold text-xl text-navy-blue mb-4">
+                  Sales
+                </h3>
                 <p className="text-muted-foreground mb-6">
-                  Quality pumps, parts, and control equipment from leading manufacturers.
+                  Quality pumps, parts, and control equipment from leading
+                  manufacturers.
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center space-x-2">
@@ -248,7 +302,8 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-work-sans font-bold text-4xl md:text-5xl text-navy-blue mb-6">
-              <span className="text-construction-orange">Real Work</span> for Real Clients
+              <span className="text-construction-orange">Real Work</span> for
+              Real Clients
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               See what our satisfied customers have to say about our work
@@ -258,19 +313,19 @@ const HomePage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Project Images */}
             <div className="grid grid-cols-2 gap-4">
-              <img 
-                src={pumpInstallation} 
-                alt="Pump installation project" 
+              <img
+                src={pumpInstallation}
+                alt="Pump installation project"
                 className="rounded-lg shadow-hard hover:shadow-strong transition-shadow"
               />
-              <img 
-                src={maintenanceWork} 
-                alt="Maintenance work" 
+              <img
+                src={maintenanceWork}
+                alt="Maintenance work"
                 className="rounded-lg shadow-hard hover:shadow-strong transition-shadow"
               />
-              <img 
-                src={serviceTruck} 
-                alt="Service truck on site" 
+              <img
+                src={serviceTruck}
+                alt="Service truck on site"
                 className="rounded-lg shadow-hard hover:shadow-strong transition-shadow col-span-2"
               />
             </div>
@@ -281,13 +336,17 @@ const HomePage = () => {
                 <CardContent className="p-6">
                   <div className="flex items-center mb-4">
                     {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-construction-orange text-construction-orange" />
+                      <Star
+                        key={i}
+                        className="w-5 h-5 fill-construction-orange text-construction-orange"
+                      />
                     ))}
                   </div>
                   <p className="text-muted-foreground mb-4 italic">
-                    "Palmetto Pump saved us when our main lift station failed on a Friday evening. 
-                    They had a crew out within 2 hours and got us back online before the weekend. 
-                    Professional, fast, and reliable."
+                    "Palmetto Pump saved us when our main lift station failed on
+                    a Friday evening. They had a crew out within 2 hours and got
+                    us back online before the weekend. Professional, fast, and
+                    reliable."
                   </p>
                   <div className="font-bold text-navy-blue">
                     Mike Johnson
@@ -302,13 +361,17 @@ const HomePage = () => {
                 <CardContent className="p-6">
                   <div className="flex items-center mb-4">
                     {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-construction-orange text-construction-orange" />
+                      <Star
+                        key={i}
+                        className="w-5 h-5 fill-construction-orange text-construction-orange"
+                      />
                     ))}
                   </div>
                   <p className="text-muted-foreground mb-4 italic">
-                    "We've used Palmetto Pump for our preventive maintenance contract for 3 years. 
-                    Their scheduled service has helped us avoid costly breakdowns and keeps our 
-                    systems running efficiently."
+                    "We've used Palmetto Pump for our preventive maintenance
+                    contract for 3 years. Their scheduled service has helped us
+                    avoid costly breakdowns and keeps our systems running
+                    efficiently."
                   </p>
                   <div className="font-bold text-navy-blue">
                     Sarah Mitchell
@@ -323,13 +386,16 @@ const HomePage = () => {
                 <CardContent className="p-6">
                   <div className="flex items-center mb-4">
                     {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-construction-orange text-construction-orange" />
+                      <Star
+                        key={i}
+                        className="w-5 h-5 fill-construction-orange text-construction-orange"
+                      />
                     ))}
                   </div>
                   <p className="text-muted-foreground mb-4 italic">
-                    "Outstanding service and fair pricing. The team really knows their stuff and 
-                    takes time to explain what they're doing. Highly recommend for any pump or 
-                    control system work."
+                    "Outstanding service and fair pricing. The team really knows
+                    their stuff and takes time to explain what they're doing.
+                    Highly recommend for any pump or control system work."
                   </p>
                   <div className="font-bold text-navy-blue">
                     Tom Rodriguez
@@ -349,7 +415,8 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-work-sans font-bold text-4xl md:text-5xl mb-6">
-              Ready to Get <span className="text-construction-orange">Started?</span>
+              Ready to Get{" "}
+              <span className="text-construction-orange">Started?</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               Contact us today for fast, reliable service you can trust
@@ -363,20 +430,27 @@ const HomePage = () => {
                 <h3 className="font-work-sans font-bold text-2xl mb-6 text-construction-orange">
                   Emergency Service Available 24/7
                 </h3>
-                
+
                 <div className="space-y-6">
-                  <a href="tel:+18435551234" className="flex items-center space-x-4 text-xl hover:text-construction-orange transition-colors">
+                  <a
+                    href="tel:+18035321001"
+                    className="flex items-center space-x-4 text-xl hover:text-construction-orange transition-colors"
+                  >
                     <div className="bg-construction-orange p-3 rounded-full">
                       <Phone className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <p className="font-bold">(843) 555-1234</p>
-                      <p className="text-sm text-gray-300">Call anytime for emergencies</p>
+                      <p className="font-bold">(803) 532-1001</p>
+                      <p className="text-sm text-gray-300">
+                        Call anytime for emergencies
+                      </p>
                     </div>
                   </a>
 
                   <div className="pt-6 border-t border-gray-600">
-                    <h4 className="font-bold text-lg mb-4">Our Service Areas</h4>
+                    <h4 className="font-bold text-lg mb-4">
+                      Our Service Areas
+                    </h4>
                     <div className="grid grid-cols-2 gap-2 text-sm text-gray-300">
                       <div>• Charleston County</div>
                       <div>• Berkeley County</div>
@@ -395,7 +469,7 @@ const HomePage = () => {
               <h3 className="font-work-sans font-bold text-2xl text-navy-blue mb-6">
                 Request a Quote
               </h3>
-              
+
               <form className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
@@ -411,21 +485,27 @@ const HomePage = () => {
                     <Input className="border-2 focus:border-construction-orange" />
                   </div>
                 </div>
-                
+
                 <div>
                   <label className="block text-sm font-medium text-muted-foreground mb-2">
                     Phone Number
                   </label>
-                  <Input type="tel" className="border-2 focus:border-construction-orange" />
+                  <Input
+                    type="tel"
+                    className="border-2 focus:border-construction-orange"
+                  />
                 </div>
-                
+
                 <div>
                   <label className="block text-sm font-medium text-muted-foreground mb-2">
                     Email Address
                   </label>
-                  <Input type="email" className="border-2 focus:border-construction-orange" />
+                  <Input
+                    type="email"
+                    className="border-2 focus:border-construction-orange"
+                  />
                 </div>
-                
+
                 <div>
                   <label className="block text-sm font-medium text-muted-foreground mb-2">
                     Service Needed
@@ -439,17 +519,17 @@ const HomePage = () => {
                     <option>Other</option>
                   </select>
                 </div>
-                
+
                 <div>
                   <label className="block text-sm font-medium text-muted-foreground mb-2">
                     Message
                   </label>
-                  <Textarea 
+                  <Textarea
                     placeholder="Tell us about your project or service needs..."
                     className="border-2 focus:border-construction-orange min-h-[120px]"
                   />
                 </div>
-                
+
                 <Button variant="construction" size="lg" className="w-full">
                   Send Message
                 </Button>

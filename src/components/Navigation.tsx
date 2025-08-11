@@ -23,10 +23,10 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-12 h-12 rounded-lg overflow-hidden">
-              <img 
-                src="/lovable-uploads/adf7b64e-1d99-4a9b-a85a-d22e3e5fbddb.png" 
-                alt="Palmetto Pump & Control Logo" 
+            <div className="w-20 h-20 rounded-lg overflow-hidden">
+              <img
+                src="/src/assets/Pump-and-Control-Main-Logo.png"
+                alt="Palmetto Pump & Control Logo"
                 className="w-full h-full object-contain"
               />
             </div>
@@ -34,7 +34,7 @@ const Navigation = () => {
               <h1 className="font-work-sans font-bold text-lg text-navy-blue">
                 Palmetto Pump & Control
               </h1>
-              <p className="text-xs text-muted-foreground font-medium">LLC</p>
+              {/* <p className="text-xs text-muted-foreground font-medium">LLC</p> */}
             </div>
           </Link>
 
@@ -58,15 +58,21 @@ const Navigation = () => {
           {/* Emergency Contact */}
           <div className="hidden lg:flex items-center space-x-4">
             <div className="text-right">
-              <p className="text-xs text-muted-foreground font-medium">24/7 Emergency</p>
+              <p className="text-xs text-muted-foreground font-medium">
+                24/7 Emergency
+              </p>
               <a
-                href="tel:+18435551234"
+                href="tel:+18035321001"
                 className="font-work-sans font-bold text-navy-blue hover:text-construction-orange transition-colors"
               >
-                (843) 555-1234
+                (803) 532-1001
               </a>
             </div>
-            <Button variant="default" size="sm" className="bg-gradient-accent text-white font-bold">
+            <Button
+              variant="default"
+              size="sm"
+              className="bg-gradient-accent text-white font-bold"
+            >
               <Phone className="w-4 h-4 mr-2" />
               Call Now
             </Button>
@@ -100,12 +106,14 @@ const Navigation = () => {
                 </Link>
               ))}
               <div className="pt-2 border-t border-border">
-                <p className="text-xs text-muted-foreground font-medium mb-1">24/7 Emergency</p>
+                <p className="text-xs text-muted-foreground font-medium mb-1">
+                  24/7 Emergency
+                </p>
                 <a
-                  href="tel:+18435551234"
+                  href="tel:+18035321001"
                   className="font-work-sans font-bold text-navy-blue block mb-2"
                 >
-                  (843) 555-1234
+                  (803) 532-1001
                 </a>
                 <Button className="w-full bg-gradient-accent text-white font-bold">
                   <Phone className="w-4 h-4 mr-2" />
