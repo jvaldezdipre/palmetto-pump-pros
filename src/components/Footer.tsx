@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-20 h-20 rounded-lg overflow-hidden">
                 <img
-                  src="/src/assets/Pump-and-Control-Main-Logo.png"
+                  src="/lovable-uploads/67269f2b-a277-4a02-8148-9e78faa04d09.png"
                   alt="Palmetto Pump & Control Logo"
                   className="w-full h-full object-contain"
                 />
